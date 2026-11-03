@@ -42,14 +42,14 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
 GEMINI_API_KEY=
 ```
 
-Add this app's `/auth/callback` URL to the Supabase Google redirect allow list. For local work that is `http://localhost:3000/auth/callback`.
+Add this app's `/auth/callback` URL to the Supabase Google redirect allow list. For local work that is `http://localhost:3001/auth/callback`.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3001](http://localhost:3001). `npm run dev` and `npm run start` listen on port 3001.
 
 ## Vercel
 
